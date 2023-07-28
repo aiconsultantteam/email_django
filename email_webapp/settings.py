@@ -39,7 +39,7 @@ MIDDLEWARE = [
 
 
 CORS_ALLOWED_ORIGINS = [
-    "https://email-app-9a31.onrender.com",
+    "https://email-app-1vtt.onrender.com",
     # Add any other domains you want to allow here.
 ]
 
@@ -105,8 +105,8 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 # Default primary key field type
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_COOKIE_DOMAIN = 'email-app-9a31.onrender.com'
-CSRF_TRUSTED_ORIGINS = ['https://email-app-9a31.onrender.com']
+CSRF_COOKIE_DOMAIN = 'email-app-1vtt.onrender.com'
+CSRF_TRUSTED_ORIGINS = ['https://email-app-1vtt.onrender.com']
 CSRF_COOKIE_SECURE = True
 
 # Add this line

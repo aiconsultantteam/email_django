@@ -105,7 +105,7 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CSRF_COOKIE_DOMAIN = 'email-app-9a31.onrender.com'
-CSRF_TRUSTED_ORIGINS = ['email-app-9a31.onrender.com']
+CSRF_TRUSTED_ORIGINS = ['https://email-app-9a31.onrender.com']
 CSRF_COOKIE_SECURE = True
 
 # Add this line
